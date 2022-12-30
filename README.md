@@ -29,6 +29,8 @@ This version has built-in: ocean, thunderstorm, flowing water, forest, summer an
 * [ ] 小程序ios端不支持 wx.setScreenBrightness.
 * [ ] ···
 
+<img src="https://raw.githubusercontent.com/wowqaqtat/Alarm-clock-simulating-the-sun/main/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE/%E5%A4%AA%E9%98%B3%E9%97%B9%E9%92%9F%E6%B5%81%E7%A8%8B%E5%9B%BE.png" width="900px">
+
 ## 开发参考
 
 开发者可以根据实际需要进行优化：  
@@ -40,6 +42,13 @@ This version has built-in: ocean, thunderstorm, flowing water, forest, summer an
 * [ ] 可设置多个闹钟。
 * [ ] 获取本地太阳升起时间，亮起时间可以与真实日出同步。（其实把窗帘拉开就能实现了）
 * [ ] ···
+
+## 应用截图
+<img src="https://raw.githubusercontent.com/wowqaqtat/Alarm-clock-simulating-the-sun/main/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE1.jpg" height="350px"> <img src="https://raw.githubusercontent.com/wowqaqtat/Alarm-clock-simulating-the-sun/main/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE2.jpg" height="350px"> <img src="https://raw.githubusercontent.com/wowqaqtat/Alarm-clock-simulating-the-sun/main/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE3.jpg" height="350px"> <img src="https://raw.githubusercontent.com/wowqaqtat/Alarm-clock-simulating-the-sun/main/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE4.jpg" height="350px">
+
+支持手机横屏：  
+
+<img src="https://raw.githubusercontent.com/wowqaqtat/Alarm-clock-simulating-the-sun/main/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE/%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE5.jpg" width="500px">
 
 ## 扫码体验
 
