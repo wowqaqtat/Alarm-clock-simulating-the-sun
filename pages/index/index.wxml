@@ -1,0 +1,59 @@
+<picker class="center" mode="time" value="{{time}}" bindchange="bindTimeChange">
+  <view class="picker">
+    <view wx:if="{{hour}}"> {{hour}}:{{minute}} </view>
+    <view wx:else>{{time}}</view>
+  </view>
+</picker>
+<text class="center" bindtap="getTime">当前时间 {{Time}}</text>
+
+<view class="center" style="color: red;">
+  <text wx:if="{{hours>0}}">{{hours}}小时{{minutes}}分钟后</text>
+  <text wx:elif="{{hours==0 && minutes>0}}">{{minutes}}分钟后</text>
+  <text wx:elif="{{hours==0 && minutes==0}}">时间到！</text>
+  <text decode="true" wx:else>&nbsp;&nbsp;&nbsp;&nbsp;小时&nbsp;&nbsp;&nbsp;&nbsp;分钟后</text>
+</view>
+
+<!-- 进度条，取值0-100，保留一位小数 -->
+<view class="center">
+  <progress style="width: 90%;" percent="{{light*100}}" font-size="12" show-info="true"></progress>
+</view>
+
+<text>\n</text>
+
+<button class="center" type="primary" bindtap="power_saving">省电</button>
+<button class="center" type="default" bindtap="restart">结束</button>
+
+<text>\n\n</text>
+
+<block>
+  <view class="center">
+    <text style="justify-content: flex-start; width: 400rpx;">每日重复</text>
+    <switch style="width: 70px; height: 35px;" checked="{{isChecked1}}" bindchange="changeSwitch1" disabled="true" />
+  </view>
+  <view class="center">
+    <text style="justify-content: flex-start; width: 400rpx;">振动</text>
+    <switch style="width: 70px; height: 35px;" checked="{{isChecked2}}" bindchange="changeSwitch2" />
+  </view>
+  <view class="center">
+    <text style="justify-content: flex-start; width: 400rpx;">稍后提醒</text>
+    <switch style="width: 70px; height: 35px" checked="{{isChecked3}}" bindchange="changeSwitch3" disabled="true" />
+  </view>
+
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="center">
+      <text style="justify-content: flex-start; width: 400rpx;">选择音频</text>
+      <image wx:if="{{!array[index]}}" style="width: 70px; height: 35px;" src="" mode="" />
+      <text class="center" wx:else style="font-size: 13px; width: 70px; height: 35px; justify-content: left">{{array[index]}}</text>
+    </view>
+  </picker>
+
+</block>
+
+<text>\n</text>
+
+<view class="center" bindtap="technical_support">
+  <view class="technical_support">
+    <text style="color: #0000FF;">好读科技 </text>
+    <text>技术支持</text>
+  </view>
+</view>

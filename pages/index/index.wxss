@@ -1,0 +1,19 @@
+/* 居中 */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 时间选择器 */
+.picker {
+  font-size: 100rpx;
+}
+
+/* 技术支持 */
+.technical_support {
+  position: absolute;
+  bottom: 8px;
+  font-size: 14px;
+  font-style: italic;
+}
