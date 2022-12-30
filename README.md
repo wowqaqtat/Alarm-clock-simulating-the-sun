@@ -63,4 +63,4 @@ This version has built-in: ocean, thunderstorm, flowing water, forest, summer an
 
 源代码：https://github.com/wowqaqtat/Alarm-clock-simulating-the-sun  
 视频讲解：bilibili  
-邮箱：work@haodukeji.cn  
+邮箱：help@haodukeji.cn  
