@@ -1,5 +1,6 @@
 # 太阳闹钟
 
+太阳闹钟 太阳钟 自然唤醒灯 日光模拟 太阳光模拟 时钟
 Alarm clock simulating the sun.  
 
 ## 应用场景
